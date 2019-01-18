@@ -1,5 +1,7 @@
 # RNPong
-A two-player Pong game created with React Native and Pusher Channels
+A two-player Pong game created with React Native and Pusher Channels.
+
+You can read the tutorial at: [https://pusher.com/tutorials/react-native-pong-game](https://pusher.com/tutorials/react-native-pong-game)
 
 ### Prerequisites
 
