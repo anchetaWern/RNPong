@@ -17,7 +17,7 @@ You can read the tutorial at: [https://pusher.com/tutorials/react-native-pong-ga
 
 ```
 git clone https://github.com/anchetaWern/RNPong.git
-cd RNOffline
+cd RNPong
 ```
 
 2. Install the app dependencies:
@@ -35,10 +35,35 @@ react-native eject
 4. Link the packages:
 
 ```
-react-native link
+react-native link react-native-gesture-handler
 ```
 
-5. Run the app:
+5. Update `.env` file with your Pusher app credentials.
+
+6. Setup the server:
+
+```
+cd server
+yarn
+```
+
+7. Update the `server/.env` file with your Pusher app credentials.
+
+8. Run the server:
+
+```
+node server.js
+```
+
+9. Run ngrok:
+
+```
+./ngrok http 5000
+```
+
+10. Update the `src/screens/Login.js` file with your ngrok https URL.
+
+11. Run the app:
 
 ```
 react-native run-android
