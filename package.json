@@ -7,7 +7,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "matter-js": "^0.14.2",
     "pusher-js": "^4.3.1",
     "react": "16.6.3",
